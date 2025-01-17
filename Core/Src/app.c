@@ -13,6 +13,7 @@ void setDuty(uint8_t r, uint8_t g, uint8_t b){
 	htim1.Instance->CCR1 = r * 10;
 	htim1.Instance->CCR2 = g * 10;
 	htim1.Instance->CCR3 = b * 10;
+	print("fun start");
 }
 
 void app(){
